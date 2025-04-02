@@ -24,10 +24,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
            
         if(RememberMe){
-             localStorage.setItem("savedusername", userName);
+             localStorage.setItem("savedUsername", userName);
     
           }else{
-             sessionStorage.setItem("savedusername",userName);
+             sessionStorage.setItem("savedUsername",userName);
                 }
           alert("login successfully")
      });
